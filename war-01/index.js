@@ -16,4 +16,4 @@ var number = function(busStops){
     let count = 0
     busStops.forEach(x => count += x[0] - x[1])
     return count
-  }
+}
